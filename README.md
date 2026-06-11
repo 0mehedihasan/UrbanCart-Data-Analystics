@@ -104,6 +104,8 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ![Payment Method Distribution](outputs/payment_method_chart.png)
 
+**Insight:** Cash on Delivery (COD) is the dominant payment method, accounting for approximately 41% of all transactions. Mobile financial services such as bKash and Nagad collectively contribute nearly 49% of total payments, highlighting strong customer adoption of digital payment channels.
+
 ### Product Category Distribution
 
 ![Product Category Distribution](outputs/product_category_chart.png)
