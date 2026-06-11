@@ -172,6 +172,8 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ## Business Questions Addressed
 
+## Business Questions Addressed
+
 1. Total Orders Received
 2. Top Cities by Orders and Revenue
 3. Gmail Customer Percentage
@@ -196,6 +198,7 @@ This project aims to answer 25 business-oriented analytical questions covering:
 23. Frequently Purchased Product Pairs
 24. Highest Revenue Product Pairs
 25. Daily Business Performance Report
+
 
 ---
 
