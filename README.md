@@ -197,11 +197,15 @@ This project aims to answer 25 business-oriented analytical questions covering:
 24. Highest Revenue Product Pairs
 25. Daily Business Performance Report
 
+---
+
 ## SQL Scripts
 
 All SQL queries used in this project are organized and stored in the `sql_queries/` directory.
 
-The repository contains SQL scripts covering:
+The repository contains separate SQL files for each business question, making the analysis easier to review and maintain.
+
+The SQL scripts cover:
 
 - Sales Performance Analysis
 - Customer Behavior Analysis
