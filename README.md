@@ -21,7 +21,7 @@ The objective of this project is to answer 25 business questions related to:
 
 ## Database Schema (ER Diagram)
 
-![ER Diagram](ER_Diagram.png)
+![ER Diagram](ER_Diagram.webp)
 
 ### Tables Used
 
