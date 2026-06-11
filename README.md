@@ -104,13 +104,14 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ![Payment Method Distribution](outputs/payment_method_chart.png)
 
-**Insight:** Cash on Delivery (COD) is the dominant payment method, accounting for approximately 41% of all transactions. Mobile financial services such as bKash and Nagad collectively contribute nearly 49% of total payments, highlighting strong customer adoption of digital payment channels.
+**Insight:** Cash on Delivery (COD) accounts for the largest share of transactions, while bKash and Nagad collectively represent nearly half of all payment activity.
 
 ### Product Category Distribution
 
 ![Product Category Distribution](outputs/product_category_chart.png)
 
----
+**Insight:** Fashion, Beverages, and Personal Care are the largest product categories in the catalog. The product portfolio is diversified across multiple categories, supporting broader customer demand and cross-selling opportunities.
+
 
 ## Business Questions Addressed
 
