@@ -48,7 +48,6 @@ Stores payment method information.
 2. Top Cities by Orders and Revenue
 3. Gmail Customer Percentage
 4. Monthly Order Trend
-5. 
 6. Total Revenue Generated
 7. Revenue by Product Category
 8. Top Revenue Generating Products
@@ -88,6 +87,10 @@ Stores payment method information.
 
 ![Q3](outputs/Q3_result.png)
 
+### Monthly order Trend
+
+![Q4](outputs/Q4_result.png)
+
 ### Product Category Revenue Analysis
 
 ![Q7](outputs/Q7_result.png)
@@ -96,17 +99,39 @@ Stores payment method information.
 
 ![Q8](outputs/Q8_result.png)
 
+### Stock Out Risk Products
+
+![Q10](outputs/Q10_result.png)
+
+
 ### Top Customers by Revenue
 
 ![Q11](outputs/Q11_result.png)
+
+### Cancellation Rate by City
+
+![Q12](outputs/Q12_result.png)
+
+### Customers Ordered In October but not December
+
+![Q15](outputs/Q15_result.png)
 
 ### Payment Method Analysis
 
 ![Q17](outputs/Q17_result.png)
 
+### Payment Method vs Order Status
+
+![Q18](outputs/Q18_result.png)
+
 ### Product Affinity Analysis
 
 ![Q23](outputs/Q23_result.png)
+
+### Highest Revenue Product Pairs
+
+![Q24](outputs/Q24_result.png)
+
 
 ### Daily Business Report
 
