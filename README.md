@@ -29,42 +29,98 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ## Project Snapshot
 
-| Metric             | Value                          |
-| ------------------ | ------------------------------ |
-| Customers          | 100                            |
-| Products           | 41                             |
-| Orders             | 1,200                          |
-| Order Items        | 4,621                          |
-| Units Sold         | 11,509                         |
-| Product Categories | 12                             |
-| Payment Methods    | 5                              |
-| Analysis Period    | September 2025 – December 2025 |
+| Metric | Value |
+|---------|---------|
+| Total Customers | 100 |
+| Total Products | 41 |
+| Total Orders | 1,200 |
+| Total Order Items | 4,621 |
+| Total Units Ordered | 11,509 |
+| Product Categories | 12 |
+| Payment Methods | 5 |
+| Order Date Range | September 2025 – December 2025 |
 
 ---
 
-## Data Sources
+## Data Assets
 
-| Dataset        | Description                                               |
-| -------------- | --------------------------------------------------------- |
-| DimCustomers   | Customer profile and demographic information              |
-| DimProducts    | Product catalog, category, pricing, and inventory details |
-| FactOrders     | Order transactions and order status information           |
-| FactOrderItems | Product-level order details                               |
-| FactPayment    | Payment transaction records                               |
+| Dataset File | Description |
+|--------------|-------------|
+| DimCustomers | Customer demographic and contact information |
+| FactOrders | Order records and status information |
+| FactOrderItems | Product level transaction details |
+| DimProducts | Product catalog, categories, pricing, and stock |
+| FactPayment | Payment transaction information |
+
 
 ---
 
 ## Data Model Summary
 
-| Table          | Primary Key   | Business Purpose                               |
-| -------------- | ------------- | ---------------------------------------------- |
-| DimCustomers   | customer_id   | Stores customer information                    |
-| FactOrders     | order_id      | Stores order transactions                      |
-| FactOrderItems | order_item_id | Stores products purchased in each order        |
-| DimProducts    | product_id    | Stores product, pricing, and inventory details |
-| FactPayment    | payment_id    | Stores payment method information              |
+| Table Name | Primary Key | Purpose |
+|------------|------------|----------|
+| DimCustomers | customer_id | Stores customer information |
+| FactOrders | order_id | Stores order transactions |
+| FactOrderItems | order_item_id | Stores product level sales |
+| DimProducts | product_id | Stores product catalog information |
+| FactPayment | payment_id | Stores payment details |
 
 ---
+
+## Order Status Distribution
+
+| Status | Business Meaning |
+|----------|----------------|
+| Completed | Successfully completed orders |
+| Pending | Orders awaiting processing |
+| Cancelled | Orders cancelled before completion |
+
+---
+
+## Payment Methods Available
+
+| Payment Method |
+|----------------|
+| Cash on Delivery (COD) |
+| bKash |
+| Nagad |
+| Credit Card |
+| Debit Card |
+
+---
+
+## Product Categories
+
+| Category |
+|-----------|
+| Beverages |
+| Dairy |
+| Digital |
+| Electronics |
+| Fashion |
+| Grocery |
+| Health |
+| Home Care |
+| Meat |
+| Personal Care |
+| Poultry |
+| Snacks |
+
+---
+
+## Data Quality Notes
+
+| Check | Status |
+|---------|---------|
+| Duplicate Customer IDs | Not Found |
+| Duplicate Order IDs | Not Found |
+| Missing Product IDs | Not Found |
+| Missing Customer References | Not Found |
+| Missing Payment Records | Not Found |
+| Referential Integrity | Maintained |
+
+---
+
 
 ## Data Validation Summary
 
@@ -112,6 +168,7 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 **Insight:** Fashion, Beverages, and Personal Care are the largest product categories in the catalog. The product portfolio is diversified across multiple categories, supporting broader customer demand and cross-selling opportunities.
 
+---
 
 ## Business Questions Addressed
 
@@ -139,6 +196,38 @@ This project aims to answer 25 business-oriented analytical questions covering:
 23. Frequently Purchased Product Pairs
 24. Highest Revenue Product Pairs
 25. Daily Business Performance Report
+
+## SQL Scripts
+
+All SQL queries used in this project are organized and stored in the `sql_queries/` directory.
+
+The repository contains SQL scripts covering:
+
+- Sales Performance Analysis
+- Customer Behavior Analysis
+- Product Performance Analysis
+- Inventory Monitoring
+- Payment Method Analysis
+- Customer Retention Analysis
+- Product Affinity Analysis
+- Business Reporting
+
+---
+
+## SQL Concepts Demonstrated
+
+| SQL Concept | Usage |
+|-------------|---------|
+| SELECT Statements | Data Retrieval |
+| WHERE Clause | Data Filtering |
+| ORDER BY | Sorting Results |
+| GROUP BY | Aggregation Analysis |
+| Aggregate Functions | COUNT, SUM, AVG |
+| INNER JOIN | Multi-table Analysis |
+| LEFT JOIN | Data Completeness Checks |
+| CASE Statements | Conditional Analysis |
+| Subqueries | Advanced Filtering |
+| Common Table Expressions (CTE) | Product Affinity Analysis |
 
 ---
 
@@ -245,8 +334,14 @@ UrbanCart-Data-Analytics
 
 ---
 
+---
+
 ## Author
 
 **Rubina Akter**
 
-SQL-Based Retail Business Analytics Project for UrbanCart E-Commerce Dataset.
+SQL-Based Retail Business Analytics Project using PostgreSQL.
+
+**Rubina Akter**
+
+SQL-Based Retail Business Analytics Project for UrbanCart E-Commerce Dataset.  ok
