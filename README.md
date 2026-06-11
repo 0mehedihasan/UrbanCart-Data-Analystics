@@ -119,27 +119,26 @@ This project aims to answer 25 business-oriented analytical questions covering:
 2. Top Cities by Orders and Revenue
 3. Gmail Customer Percentage
 4. Monthly Order Trend
-5. Total Revenue Generated
-6. Revenue by Product Category
-7. Top Revenue Generating Products
-8. Average Order Value and Basket Size
-9. Stock-out Risk Products
-10. Top Revenue Contributing Customers
-11. Cancellation Rate by City and Customer
-12. Gender-Based Purchasing Pattern
-13. Customer Purchasing Behavior Over Time
-14. Customers Ordered in October but not December
-15. Customers Ordered in Both October and December
-16. Most Frequently Used Payment Methods
-17. Payment Method vs Order Status
-18. City-wise Payment Preferences
-19. High-Value Orders by Payment Method
-20. Average Items per Order by Payment Method
-21. Product Price vs Category Average Price
-22. Frequently Purchased Product Pairs
-23. Highest Revenue Product Pairs
-24. Daily Business Performance Report
-25. Executive Business Summary
+6. Total Revenue Generated
+7. Revenue by Product Category
+8. Top Revenue Generating Products
+9. Average Order Value and Basket Size
+10. Stock-out Risk Products
+11. Top Revenue Contributing Customers
+12. Cancellation Rate by City and Customer
+13. Gender Based Purchasing Pattern
+14. Customer Purchasing Behavior Over Time
+15. Customers Ordered in October but not December
+16. Customers Ordered in Both October and December
+17. Most Used Payment Methods
+18. Payment Method vs Order Status
+19. City-wise Payment Preference
+20. High Value Orders by Payment Method
+21. Average Items per Order by Payment Method
+22. Product Price vs Category Average Price
+23. Frequently Purchased Product Pairs
+24. Highest Revenue Product Pairs
+25. Daily Business Performance Report
 
 ---
 
@@ -153,21 +152,9 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ![Q2](outputs/Q2_result.png)
 
-### Q3. Gmail Customer Percentage
-
-![Q3](outputs/Q3_result.png)
-
-### Q4. Monthly Order Trend
-
-![Q4](outputs/Q4_result.png)
-
 ### Q7. Product Category Revenue Analysis
 
 ![Q7](outputs/Q7_result.png)
-
-### Q8. Top Revenue Generating Products
-
-![Q8](outputs/Q8_result.png)
 
 ### Q10. Stock-Out Risk Products
 
@@ -177,29 +164,14 @@ This project aims to answer 25 business-oriented analytical questions covering:
 
 ![Q11](outputs/Q11_result.png)
 
-### Q12. Cancellation Rate Analysis
-
-![Q12](outputs/Q12_result.png)
-
-### Q15. Customer Retention Analysis
-
-![Q15](outputs/Q15_result.png)
-
 ### Q17. Payment Method Analysis
 
 ![Q17](outputs/Q17_result.png)
-
-### Q18. Payment Method vs Order Status
-
-![Q18](outputs/Q18_result.png)
 
 ### Q23. Product Affinity Analysis
 
 ![Q23](outputs/Q23_result.png)
 
-### Q24. Highest Revenue Product Pairs
-
-![Q24](outputs/Q24_result.png)
 
 ### Q25. Daily Business Performance Report
 
