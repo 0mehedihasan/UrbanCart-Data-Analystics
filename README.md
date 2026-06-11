@@ -196,7 +196,7 @@ This project aims to answer 25 business-oriented analytical questions covering:
 23. Frequently Purchased Product Pairs
 24. Highest Revenue Product Pairs
 25. Daily Business Performance Report
-26. 
+
 ---
 
 ## SQL Scripts
