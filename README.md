@@ -245,6 +245,14 @@ The SQL scripts cover:
 
 ![Q2](outputs/Q2_result.png)
 
+### Gmail Customer Percentage 
+
+![Q3](outputs/Q3_result.png) 
+
+### Monthly order Trend
+
+![Q4](outputs/Q4_result.png) 
+
 ### Q7. Product Category Revenue Analysis
 
 ![Q7](outputs/Q7_result.png)
@@ -257,13 +265,29 @@ The SQL scripts cover:
 
 ![Q11](outputs/Q11_result.png)
 
+### Cancellation Rate by City 
+
+![Q12](outputs/Q12_result.png)
+
+### Customers Ordered In October but not December
+
+![Q15](outputs/Q15_result.png)
+
 ### Q17. Payment Method Analysis
 
 ![Q17](outputs/Q17_result.png)
 
+### Payment Method vs Order Status
+
+![Q18](outputs/Q18_result.png)
+
 ### Q23. Product Affinity Analysis
 
 ![Q23](outputs/Q23_result.png)
+
+### Highest Revenue Product Pairs 
+
+![Q24](outputs/Q24_result.png)
 
 
 ### Q25. Daily Business Performance Report
