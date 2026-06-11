@@ -6,6 +6,17 @@ SQL-Based Business Analytics Project for UrbanCart E-Commerce Dataset
 
 UrbanCart is a growing online retail company operating across multiple cities. This project analyzes transactional business data using SQL to generate actionable business insights for sales growth, customer retention, inventory management, payment optimization, and product recommendations.
 
+## Analysis Summary
+
+| Analysis Area | Business Questions Covered | Purpose |
+|--------------|---------------------------|----------|
+| Sales Analysis | Q01, Q02, Q04, Q06, Q07, Q08, Q09 | Evaluate sales performance and revenue generation |
+| Customer Analysis | Q03, Q11, Q13, Q14, Q15, Q16 | Understand customer behavior and retention |
+| Inventory Analysis | Q10 | Identify stock-out risks and inventory issues |
+| Payment Analysis | Q17, Q18, Q19, Q20, Q21 | Analyze payment preferences and performance |
+| Product Analysis | Q22, Q23, Q24 | Evaluate pricing and product affinity |
+| Business Reporting | Q25 | Generate operational performance reports |
+
 ## Project Objectives
 
 The objective of this project is to answer 25 business questions related to:
@@ -139,6 +150,19 @@ Stores payment method information.
 
 ---
 
+## Key Findings Summary
+
+| Category | Finding |
+|-----------|----------|
+| Revenue | Certain cities contribute significantly higher revenue than others. |
+| Customers | Gmail is the dominant customer email provider. |
+| Products | A small number of products generate a large portion of revenue. |
+| Inventory | Several products show stock-out risk due to high demand. |
+| Payments | Customer payment preferences vary across different transaction scenarios. |
+| Affinity | Frequently purchased product pairs indicate strong bundling opportunities. |
+
+---
+
 ## Key Insights
 
 ### Sales Performance
@@ -167,33 +191,15 @@ Stores payment method information.
 
 ---
 
-## Business Recommendations
+## Strategic Recommendations
 
-### Revenue Growth
-
-- Focus marketing campaigns on high-performing cities.
-- Promote top-selling products through targeted advertising.
-
-### Customer Retention
-
-- Re-engage customers who purchased previously but did not return.
-- Develop loyalty programs for high-value customers.
-
-### Inventory Management
-
-- Monitor stock-out risk products closely.
-- Improve replenishment planning for fast-moving items.
-
-### Product Bundling
-
-- Create bundle offers using frequently purchased product combinations.
-- Use affinity analysis results to improve product recommendations.
-
-### Payment Optimization
-
-- Promote preferred payment methods.
-- Investigate payment methods associated with higher cancellation rates.
-
+| Business Area | Recommendation |
+|--------------|---------------|
+| Revenue Growth | Increase marketing efforts in top-performing cities. |
+| Customer Retention | Launch loyalty and re-engagement campaigns. |
+| Inventory Management | Monitor low-stock, high-demand products closely. |
+| Product Bundling | Create bundle offers using frequently purchased product pairs. |
+| Payment Optimization | Promote preferred payment methods and investigate cancellation patterns. |
 ---
 
 ## Technologies Used
