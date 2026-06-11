@@ -2,54 +2,111 @@
 
 SQL-Based Business Analytics Project for UrbanCart E-Commerce Dataset
 
+---
+
 ## Project Overview
 
-UrbanCart is a growing online retail company operating across multiple cities. This project analyzes transactional business data using SQL to generate actionable business insights for sales growth, customer retention, inventory management, payment optimization, and product recommendations.
+UrbanCart is a growing e-commerce retail business operating across multiple cities. This project uses PostgreSQL to analyze transactional data and generate actionable business insights related to sales performance, customer behavior, inventory management, payment preferences, customer retention, and product affinity patterns.
 
-## Analysis Summary
+The goal is to support data-driven decision-making through structured SQL analysis and business intelligence reporting.
 
-| Analysis Area | Business Questions Covered | Purpose |
-|--------------|---------------------------|----------|
-| Sales Analysis | Q01, Q02, Q04, Q06, Q07, Q08, Q09 | Evaluate sales performance and revenue generation |
-| Customer Analysis | Q03, Q11, Q13, Q14, Q15, Q16 | Understand customer behavior and retention |
-| Inventory Analysis | Q10 | Identify stock-out risks and inventory issues |
-| Payment Analysis | Q17, Q18, Q19, Q20, Q21 | Analyze payment preferences and performance |
-| Product Analysis | Q22, Q23, Q24 | Evaluate pricing and product affinity |
-| Business Reporting | Q25 | Generate operational performance reports |
+---
 
 ## Project Objectives
 
-The objective of this project is to answer 25 business questions related to:
+This project aims to answer 25 business-oriented analytical questions covering:
 
-- Sales Performance Analysis
-- Customer Behavior Analysis
-- Product Performance Analysis
-- Inventory Management
-- Payment Method Analysis
-- Customer Retention
-- Product Affinity Analysis
-- Business Reporting
+* Sales Performance Analysis
+* Customer Behavior Analysis
+* Product Performance Analysis
+* Inventory Monitoring
+* Customer Retention Analysis
+* Payment Method Analysis
+* Product Affinity Analysis
+* Business Reporting
+
+---
+
+## Project Snapshot
+
+| Metric             | Value                          |
+| ------------------ | ------------------------------ |
+| Customers          | 100                            |
+| Products           | 41                             |
+| Orders             | 1,200                          |
+| Order Items        | 4,621                          |
+| Units Sold         | 11,509                         |
+| Product Categories | 12                             |
+| Payment Methods    | 5                              |
+| Analysis Period    | September 2025 – December 2025 |
+
+---
+
+## Data Sources
+
+| Dataset        | Description                                               |
+| -------------- | --------------------------------------------------------- |
+| DimCustomers   | Customer profile and demographic information              |
+| DimProducts    | Product catalog, category, pricing, and inventory details |
+| FactOrders     | Order transactions and order status information           |
+| FactOrderItems | Product-level order details                               |
+| FactPayment    | Payment transaction records                               |
+
+---
+
+## Data Model Summary
+
+| Table          | Primary Key   | Business Purpose                               |
+| -------------- | ------------- | ---------------------------------------------- |
+| DimCustomers   | customer_id   | Stores customer information                    |
+| FactOrders     | order_id      | Stores order transactions                      |
+| FactOrderItems | order_item_id | Stores products purchased in each order        |
+| DimProducts    | product_id    | Stores product, pricing, and inventory details |
+| FactPayment    | payment_id    | Stores payment method information              |
+
+---
+
+## Data Validation Summary
+
+| Validation Check                    | Status    |
+| ----------------------------------- | --------- |
+| Missing Value Assessment            | Completed |
+| Duplicate Record Check              | Passed    |
+| Primary Key Validation              | Passed    |
+| Foreign Key Relationship Validation | Passed    |
+| Data Type Consistency Check         | Passed    |
+
+---
+
+## Business Analytics Areas
+
+| Analysis Area       | Focus                                         |
+| ------------------- | --------------------------------------------- |
+| Sales Analytics     | Revenue, orders, and sales trends             |
+| Customer Analytics  | Customer behavior and retention               |
+| Product Analytics   | Product performance and category contribution |
+| Inventory Analytics | Stock monitoring and stock-out risks          |
+| Payment Analytics   | Payment preference and transaction analysis   |
+| Affinity Analytics  | Product bundling and association analysis     |
+| Reporting           | Business performance monitoring               |
+
+---
 
 ## Database Schema (ER Diagram)
 
 ![ER Diagram](ER_Diagram.png.webp)
 
-### Tables Used
+---
 
-#### DimCustomers
-Stores customer information.
+## Visual Analytics
 
-#### FactOrders
-Stores order details and order status.
+### Payment Method Distribution
 
-#### FactOrderItems
-Stores products purchased in each order.
+![Payment Method Distribution](outputs/payment_method_chart.png)
 
-#### DimProducts
-Stores product information, category, price, and stock.
+### Product Category Distribution
 
-#### FactPayment
-Stores payment method information.
+![Product Category Distribution](outputs/product_category_chart.png)
 
 ---
 
@@ -59,156 +116,143 @@ Stores payment method information.
 2. Top Cities by Orders and Revenue
 3. Gmail Customer Percentage
 4. Monthly Order Trend
-6. Total Revenue Generated
-7. Revenue by Product Category
-8. Top Revenue Generating Products
-9. Average Order Value and Basket Size
-10. Stock-out Risk Products
-11. Top Revenue Contributing Customers
-12. Cancellation Rate by City and Customer
-13. Gender Based Purchasing Pattern
-14. Customer Purchasing Behavior Over Time
-15. Customers Ordered in October but not December
-16. Customers Ordered in Both October and December
-17. Most Used Payment Methods
-18. Payment Method vs Order Status
-19. City-wise Payment Preference
-20. High Value Orders by Payment Method
-21. Average Items per Order by Payment Method
-22. Product Price vs Category Average Price
-23. Frequently Purchased Product Pairs
-24. Highest Revenue Product Pairs
-25. Daily Business Performance Report
+5. Total Revenue Generated
+6. Revenue by Product Category
+7. Top Revenue Generating Products
+8. Average Order Value and Basket Size
+9. Stock-out Risk Products
+10. Top Revenue Contributing Customers
+11. Cancellation Rate by City and Customer
+12. Gender-Based Purchasing Pattern
+13. Customer Purchasing Behavior Over Time
+14. Customers Ordered in October but not December
+15. Customers Ordered in Both October and December
+16. Most Frequently Used Payment Methods
+17. Payment Method vs Order Status
+18. City-wise Payment Preferences
+19. High-Value Orders by Payment Method
+20. Average Items per Order by Payment Method
+21. Product Price vs Category Average Price
+22. Frequently Purchased Product Pairs
+23. Highest Revenue Product Pairs
+24. Daily Business Performance Report
+25. Executive Business Summary
 
 ---
 
-
-
 ## Sample Output Screenshots
 
-### Total Orders
+### Q1. Total Orders
 
-![Q1](outputs/Q1_result.png)
+![Q01](outputs/Q1_result.png)
 
-### Cities Generating Highest Revenue
+### Q2. Cities Generating Highest Revenue
 
 ![Q2](outputs/Q2_result.png)
 
-### Gmail Customer Percentage
+### Q3. Gmail Customer Percentage
 
 ![Q3](outputs/Q3_result.png)
 
-### Monthly order Trend
+### Q4. Monthly Order Trend
 
 ![Q4](outputs/Q4_result.png)
 
-### Product Category Revenue Analysis
+### Q7. Product Category Revenue Analysis
 
 ![Q7](outputs/Q7_result.png)
 
-### Top Revenue Generating Products
+### Q8. Top Revenue Generating Products
 
 ![Q8](outputs/Q8_result.png)
 
-### Stock Out Risk Products
+### Q10. Stock-Out Risk Products
 
 ![Q10](outputs/Q10_result.png)
 
-
-### Top Customers by Revenue
+### Q11. Top Customers by Revenue
 
 ![Q11](outputs/Q11_result.png)
 
-### Cancellation Rate by City
+### Q12. Cancellation Rate Analysis
 
 ![Q12](outputs/Q12_result.png)
 
-### Customers Ordered In October but not December
+### Q15. Customer Retention Analysis
 
 ![Q15](outputs/Q15_result.png)
 
-### Payment Method Analysis
+### Q17. Payment Method Analysis
 
 ![Q17](outputs/Q17_result.png)
 
-### Payment Method vs Order Status
+### Q18. Payment Method vs Order Status
 
 ![Q18](outputs/Q18_result.png)
 
-### Product Affinity Analysis
+### Q23. Product Affinity Analysis
 
 ![Q23](outputs/Q23_result.png)
 
-### Highest Revenue Product Pairs
+### Q24. Highest Revenue Product Pairs
 
 ![Q24](outputs/Q24_result.png)
 
-
-### Daily Business Report
+### Q25. Daily Business Performance Report
 
 ![Q25](outputs/Q25_result.png)
 
 ---
 
-## Key Findings Summary
-
-| Category | Finding |
-|-----------|----------|
-| Revenue | Certain cities contribute significantly higher revenue than others. |
-| Customers | Gmail is the dominant customer email provider. |
-| Products | A small number of products generate a large portion of revenue. |
-| Inventory | Several products show stock-out risk due to high demand. |
-| Payments | Customer payment preferences vary across different transaction scenarios. |
-| Affinity | Frequently purchased product pairs indicate strong bundling opportunities. |
-
----
-
-## Key Insights
+## Key Findings and Insights
 
 ### Sales Performance
 
-- UrbanCart processed 1,200 orders.
-- Several cities generated significantly higher revenue than others.
-- Product sales are concentrated among a small number of top-performing products.
+* UrbanCart processed a total of 1,200 orders during the analysis period.
+* Revenue generation is concentrated within a small number of high-performing cities.
+* A limited number of products contribute a substantial portion of overall revenue.
 
 ### Customer Insights
 
-- Gmail is the dominant email provider among customers.
-- Customer retention opportunities exist between seasonal purchasing periods.
-- High-value customers contribute a significant portion of total revenue.
+* Gmail is the dominant email provider among customers.
+* High-value customers contribute significantly to total revenue.
+* Seasonal purchasing patterns reveal customer retention opportunities.
 
 ### Product Insights
 
-- Certain categories contribute disproportionately to revenue.
-- Some products show potential stock-out risk due to high demand and limited inventory.
-- Frequently purchased product pairs reveal bundling opportunities.
+* Revenue contribution varies considerably across product categories.
+* Several products exhibit stock-out risk due to strong demand and low inventory.
+* Product affinity analysis identified frequently purchased product combinations.
 
 ### Payment Insights
 
-- Specific payment methods are used more frequently than others.
-- Payment behavior varies across cities.
-- Order status patterns differ by payment method.
+* Customer payment preferences vary across locations.
+* Certain payment methods dominate transaction volume.
+* Payment behavior influences order completion and cancellation trends.
 
 ---
 
-## Strategic Recommendations
+## Business Recommendations
 
-| Business Area | Recommendation |
-|--------------|---------------|
-| Revenue Growth | Increase marketing efforts in top-performing cities. |
-| Customer Retention | Launch loyalty and re-engagement campaigns. |
-| Inventory Management | Monitor low-stock, high-demand products closely. |
-| Product Bundling | Create bundle offers using frequently purchased product pairs. |
-| Payment Optimization | Promote preferred payment methods and investigate cancellation patterns. |
+| Business Area         | Recommendation                                                        |
+| --------------------- | --------------------------------------------------------------------- |
+| Revenue Growth        | Focus marketing investment on high-performing cities and products     |
+| Customer Retention    | Launch loyalty programs and targeted re-engagement campaigns          |
+| Inventory Management  | Monitor high-demand products and improve replenishment planning       |
+| Product Bundling      | Create bundle offers based on product affinity analysis               |
+| Payment Optimization  | Promote preferred payment methods and investigate cancellation trends |
+| Business Intelligence | Develop KPI dashboards for continuous performance monitoring          |
+
 ---
 
 ## Technologies Used
 
-- PostgreSQL
-- SQL
-- pgAdmin
-- DrawSQL
-- GitHub
+* PostgreSQL
+* SQL
+* pgAdmin 4
+* DrawSQL
+* Microsoft Excel
+* GitHub
 
 ---
 
@@ -218,7 +262,7 @@ Stores payment method information.
 UrbanCart-Data-Analytics
 │
 ├── README.md
-├── ER_Diagram.webp
+├── ER_Diagram.png
 ├── database/
 ├── sql_queries/
 └── outputs/
@@ -228,6 +272,6 @@ UrbanCart-Data-Analytics
 
 ## Author
 
-Rubina Akter
+**Rubina Akter**
 
-Data Analytics Project for UrbanCart Retail Shop Analytics.
+SQL-Based Retail Business Analytics Project for UrbanCart E-Commerce Dataset.
