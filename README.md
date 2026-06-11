@@ -78,23 +78,23 @@ Stores payment method information.
 
 ### Total Orders
 
-![Q01](outputs/Q01_result.png)
+![Q1](outputs/Q1_result.png)
 
 ### Cities Generating Highest Revenue
 
-![Q02](outputs/Q02_result.png)
+![Q2](outputs/Q2_result.png)
 
 ### Gmail Customer Percentage
 
-![Q03](outputs/Q03_result.png)
+![Q3](outputs/Q3_result.png)
 
 ### Product Category Revenue Analysis
 
-![Q07](outputs/Q07_result.png)
+![Q7](outputs/Q7_result.png)
 
 ### Top Revenue Generating Products
 
-![Q08](outputs/Q08_result.png)
+![Q8](outputs/Q8_result.png)
 
 ### Top Customers by Revenue
 
