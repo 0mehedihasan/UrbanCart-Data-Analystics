@@ -358,15 +358,17 @@ UrbanCart-Data-Analytics
 ├── database/
 ├── sql_queries/
 └── outputs/
+
 ```
 
----
-
----
 
 ## Author
 
 **Rubina Akter**
+
+Department of Geography and Environment
+
+SQL-Based Retail Business Analytics Project using PostgreSQL.
 
 SQL-Based Retail Business Analytics Project using PostgreSQL.
 
