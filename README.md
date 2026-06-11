@@ -265,11 +265,11 @@ The SQL scripts cover:
 
 ![Q11](outputs/Q11_result.png)
 
-### Cancellation Rate by City 
+### Q12. Cancellation Rate by City 
 
 ![Q12](outputs/Q12_result.png)
 
-### Customers Ordered In October but not December
+### Q15. Customers Ordered In October but not December
 
 ![Q15](outputs/Q15_result.png)
 
@@ -277,7 +277,7 @@ The SQL scripts cover:
 
 ![Q17](outputs/Q17_result.png)
 
-### Payment Method vs Order Status
+### Q18. Payment Method vs Order Status
 
 ![Q18](outputs/Q18_result.png)
 
@@ -285,7 +285,7 @@ The SQL scripts cover:
 
 ![Q23](outputs/Q23_result.png)
 
-### Highest Revenue Product Pairs 
+### Q24. Highest Revenue Product Pairs 
 
 ![Q24](outputs/Q24_result.png)
 
@@ -361,7 +361,6 @@ UrbanCart-Data-Analytics
 
 ```
 
-
 ## Author
 
 **Rubina Akter**
@@ -370,8 +369,4 @@ Department of Geography and Environment
 
 SQL-Based Retail Business Analytics Project using PostgreSQL.
 
-SQL-Based Retail Business Analytics Project using PostgreSQL.
 
-**Rubina Akter**
-
-SQL-Based Retail Business Analytics Project for UrbanCart E-Commerce Dataset.  ok
