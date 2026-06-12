@@ -739,6 +739,10 @@ UrbanCart-Data-Analytics
 └── outputs/
     ├── payment_method_chart.png
     ├── product_category_chart.png
+    ├── city_revenue_chart.png
+    ├── monthly_orders_trend.png
+    ├── order_status_distribution.png
+    ├── top_product_pairs.png
     │
     ├── Q1_result.png
     ├── Q2_result.png
