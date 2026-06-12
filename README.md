@@ -79,7 +79,7 @@ This project demonstrates end-to-end SQL-based business analytics using the Urba
 * Key Findings and Insights
 * Technologies Used
 * Repository Structure
-* Author
+* Learning Outcomes
   
 ---
   
@@ -465,6 +465,7 @@ The SQL scripts cover:
 
 # Analysis Results & Business Insights
 
+
 ## Q2. Cities Generating Highest Orders and Revenue
 
 ![Q2 Output](outputs/Q2_result.png)
@@ -483,7 +484,9 @@ Revenue generation is concentrated in a small number of high-performing cities, 
 
 Increase marketing investment, promotional campaigns, and customer acquisition efforts in top-performing cities to maximize revenue growth.
 
+
 ---
+
 
 ## Q4. Monthly Order Trend
 
@@ -503,7 +506,9 @@ The trend helps identify periods of growth and slower demand, enabling better bu
 
 Analyze peak sales periods and align marketing campaigns, inventory planning, and operational resources accordingly.
 
+
 ---
+
 
 ## Q5. Completed, Pending and Cancelled Order Rates
 
@@ -523,7 +528,9 @@ A higher completion rate indicates efficient order fulfillment, while elevated c
 
 Investigate cancellation causes and improve order processing efficiency to increase successful order completion rates.
 
+
 ---
+
 
 ## Q7. Product Category Revenue Analysis
 
@@ -543,7 +550,9 @@ A limited number of categories contribute a substantial portion of total revenue
 
 Prioritize inventory management, product promotion, and category-specific marketing efforts for top-performing categories.
 
+
 ---
+
 
 ## Q10. Stock-Out Risk Products
 
@@ -561,7 +570,9 @@ These products face a potential stock-out risk, which may result in missed sales
 
 Implement proactive inventory replenishment strategies and closely monitor demand for high-performing products.
 
+
 ---
+
 
 ## Q17. Payment Method Analysis
 
@@ -581,7 +592,9 @@ Cash on Delivery (COD) remains the dominant payment method, while digital paymen
 
 Encourage digital payment adoption through cashback offers, discounts, and promotional incentives.
 
+
 ---
+
 
 ## Q23. Product Affinity Analysis
 
@@ -601,7 +614,9 @@ These purchasing patterns reveal natural product associations and cross-selling 
 
 Create bundle offers, recommendation systems, and targeted promotions based on frequently purchased product pairs.
 
+
 ---
+
 
 ## Q25. Daily Business Performance Report
 
@@ -736,10 +751,19 @@ UrbanCart-Data-Analytics
 
 ```
 
-## Author
+## Learning Outcomes
 
-**Rubina Akter**
+Through this project, I gained hands-on experience in:
 
-Aspiring Data Analyst with a focus on SQL, Data Analytics, and Business Intelligence.
-
-This project demonstrates the application of PostgreSQL for solving real-world retail business problems through data-driven analysis.
+- PostgreSQL Database Analysis
+- SQL Query Development
+- Relational Data Modeling
+- Data Visualization
+- Customer Analytics
+- Product Analytics
+- Inventory Monitoring
+- Business Intelligence Reporting
+- Data Storytelling
+- Business Recommendation Development
+- Market Basket Analysis
+- Customer Retention Analysis
