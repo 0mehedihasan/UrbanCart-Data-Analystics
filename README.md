@@ -60,6 +60,8 @@ This project demonstrates end-to-end SQL-based business analytics using the Urba
 * Data Validation Summary
 * Business Analytics Areas
 * Database Schema (ER Diagram)
+* Entity Relationship Overview
+* Database Design Highlights
 * Visual Analytics
 * Business Questions Addressed
 * SQL Scripts
@@ -221,6 +223,170 @@ UrbanCart Retail E-Commerce Dataset
 
 ---
 
+## Entity Relationship Overview
+
+The UrbanCart database follows a relational star-schema-inspired design where customer, product, order, and payment data are connected through primary and foreign key relationships.
+
+### Relationship Details
+
+#### 1. DimCustomers → FactOrders (One-to-Many)
+
+- One customer can place multiple orders.
+- Each order belongs to exactly one customer.
+
+Relationship:
+
+```text
+DimCustomers (1) ─────< FactOrders (M)
+```
+
+Business Meaning:
+
+This relationship allows customer purchase history, retention analysis, and customer lifetime value analysis.
+
+---
+
+#### 2. FactOrders → FactOrderItems (One-to-Many)
+
+- One order can contain multiple products.
+- Each order item belongs to one order.
+
+Relationship:
+
+```text
+FactOrders (1) ─────< FactOrderItems (M)
+```
+
+Business Meaning:
+
+Enables basket analysis, revenue calculation, and product-level sales reporting.
+
+---
+
+#### 3. DimProducts → FactOrderItems (One-to-Many)
+
+- One product can appear in multiple order items.
+- Each order item references a single product.
+
+Relationship:
+
+```text
+DimProducts (1) ─────< FactOrderItems (M)
+```
+
+Business Meaning:
+
+Supports product performance analysis, category analysis, and inventory monitoring.
+
+---
+
+#### 4. FactOrders → FactPayment (One-to-One)
+
+- Each order has one associated payment record.
+- Each payment record belongs to one order.
+
+Relationship:
+
+```text
+FactOrders (1) ───── FactPayment (1)
+```
+
+Business Meaning:
+
+Enables payment method analysis, payment success tracking, and transaction reporting.
+
+---
+
+#### 5. Orders ↔ Products (Many-to-Many)
+
+Orders and Products are indirectly connected through FactOrderItems.
+
+Relationship:
+
+```text
+FactOrders
+     │
+     ▼
+FactOrderItems
+     ▲
+     │
+DimProducts
+```
+
+Business Meaning:
+
+- One order can contain multiple products.
+- One product can appear in multiple orders.
+
+This many-to-many relationship is resolved through the FactOrderItems bridge table.
+
+---
+
+### Primary Keys
+
+| Table | Primary Key |
+|---------|------------|
+| DimCustomers | customer_id |
+| FactOrders | order_id |
+| FactOrderItems | order_item_id |
+| DimProducts | product_id |
+| FactPayment | payment_id |
+
+---
+
+### Foreign Keys
+
+| Table | Foreign Key | References |
+|---------|------------|------------|
+| FactOrders | customer_id | DimCustomers |
+| FactOrderItems | order_id | FactOrders |
+| FactOrderItems | product_id | DimProducts |
+| FactPayment | order_id | FactOrders |
+
+---
+
+### Why This Database Design?
+
+This relational design minimizes data redundancy, maintains referential integrity, and supports scalable business analytics.
+
+Key benefits:
+
+- Efficient customer analysis
+- Revenue and sales reporting
+- Product performance tracking
+- Payment behavior analysis
+- Customer retention analysis
+- Product affinity analysis
+- Inventory monitoring
+
+---
+
+## Database Design Highlights
+
+This database was designed following relational database principles and analytical modeling best practices.
+
+### Design Features
+
+- Normalized schema structure
+- Primary and Foreign Key constraints
+- Referential integrity maintenance
+- Fact and Dimension table architecture
+- Optimized for analytical SQL queries
+- Supports multi-table JOIN operations
+- Scalable for business intelligence reporting
+
+### Analytical Benefits
+
+- Customer behavior analysis
+- Revenue reporting
+- Product performance tracking
+- Payment analytics
+- Retention analysis
+- Product affinity analysis
+- Inventory monitoring
+
+---
+
 ## Visual Analytics
 
 ### Payment Method Distribution
@@ -317,7 +483,7 @@ The SQL scripts cover:
 
 ![Q3](outputs/Q3_result.png) 
 
-### Q4. Monthly order Trend
+### Q4. Monthly Order Trend
 
 ![Q4](outputs/Q4_result.png) 
 
