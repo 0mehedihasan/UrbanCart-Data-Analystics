@@ -2,6 +2,16 @@
 
 SQL-Based Business Analytics Project for UrbanCart E-Commerce Dataset
 
+---  
+
+## Executive Summary
+
+UrbanCart analyzed 1,200 customer orders across multiple cities between September and December 2025. The analysis focused on sales performance, customer behavior, payment preferences, inventory risk, and product affinity patterns.
+
+Key findings indicate that a small number of cities and products contribute a significant share of revenue, COD remains the dominant payment method, and several high-demand products face stock-out risk. Product affinity analysis identified opportunities for cross-selling and bundle promotions.
+
+Based on these insights, UrbanCart can improve revenue growth through targeted marketing, inventory optimization, customer retention initiatives, and payment method promotion strategies.
+
 ---
 
 ## Project Overview
@@ -45,7 +55,7 @@ This project demonstrates end-to-end SQL-based business analytics using the Urba
 ---
 
  ### Table of Contents
-
+* Executive Summary
 * Project Overview
 * Project Highlights
 * Project Objectives
