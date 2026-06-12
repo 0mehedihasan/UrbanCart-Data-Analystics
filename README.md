@@ -72,13 +72,11 @@ This project demonstrates end-to-end SQL-based business analytics using the Urba
 * Database Schema (ER Diagram)
 * Entity Relationship Overview
 * Database Design Highlights
-* Visual Analytics
 * Business Questions Addressed
 * SQL Scripts
 * SQL Concepts Demonstrated
-* Sample Output Screenshots
+* Analysis Results & Business Insights
 * Key Findings and Insights
-* Business Recommendations
 * Technologies Used
 * Repository Structure
 * Author
@@ -397,22 +395,6 @@ This database was designed following relational database principles and analytic
 
 ---
 
-## Visual Analytics
-
-### Payment Method Distribution
-
-![Payment Method Distribution](outputs/payment_method_chart.png)
-
-**Insight:** Cash on Delivery (COD) accounts for the largest share of transactions, while bKash and Nagad collectively represent nearly half of all payment activity.
-
-### Product Category Distribution
-
-![Product Category Distribution](outputs/product_category_chart.png)
-
-**Insight:** Fashion, Beverages, and Personal Care are the largest product categories in the catalog. The product portfolio is diversified across multiple categories, supporting broader customer demand and cross-selling opportunities.
-
----
-
 ## Business Questions Addressed
 
 1. Total Orders Received
@@ -481,68 +463,162 @@ The SQL scripts cover:
 
 ---
 
-## Sample Output Screenshots
+# Analysis Results & Business Insights
 
-### Q1. Total Orders
+## Q2. Cities Generating Highest Orders and Revenue
 
-![Q01](outputs/Q1_result.png)
+![Q2 Output](outputs/Q2_result.png)
 
-### Q2. Cities Generating Highest Revenue
+![Revenue by City](outputs/city_revenue_chart.png)
 
-![Q2](outputs/Q2_result.png)
+### Result Interpretation
 
-### Q3. Gmail Customer Percentage 
+The analysis identifies the cities contributing the highest number of orders and total revenue.
 
-![Q3](outputs/Q3_result.png) 
+### Business Insight
 
-### Q4. Monthly Order Trend
+Revenue generation is concentrated in a small number of high-performing cities, indicating stronger customer demand and purchasing activity in those locations.
 
-![Q4](outputs/Q4_result.png) 
+### Recommendation
 
-### Q5. Completed, Pending and Cancelled Order Rates
+Increase marketing investment, promotional campaigns, and customer acquisition efforts in top-performing cities to maximize revenue growth.
 
-![Q5](outputs/Q5_result.png)
+---
 
-### Q7. Product Category Revenue Analysis
+## Q4. Monthly Order Trend
 
-![Q7](outputs/Q7_result.png)
+![Q4 Output](outputs/Q4_result.png)
 
-### Q10. Stock-Out Risk Products
+![Monthly Orders Trend](outputs/monthly_orders_trend.png)
 
-![Q10](outputs/Q10_result.png)
+### Result Interpretation
 
-### Q11. Top Customers by Revenue
+Monthly order volume changes over time, highlighting fluctuations in customer purchasing activity.
 
-![Q11](outputs/Q11_result.png)
+### Business Insight
 
-### Q12. Cancellation Rate by City 
+The trend helps identify periods of growth and slower demand, enabling better business planning and forecasting.
 
-![Q12](outputs/Q12_result.png)
+### Recommendation
 
-### Q15. Customers Ordered In October but not December
+Analyze peak sales periods and align marketing campaigns, inventory planning, and operational resources accordingly.
 
-![Q15](outputs/Q15_result.png)
+---
 
-### Q17. Payment Method Analysis
+## Q5. Completed, Pending and Cancelled Order Rates
 
-![Q17](outputs/Q17_result.png)
+![Q5 Output](outputs/Q5_result.png)
 
-### Q18. Payment Method vs Order Status
+![Order Status Distribution](outputs/order_status_distribution.png)
 
-![Q18](outputs/Q18_result.png)
+### Result Interpretation
 
-### Q23. Product Affinity Analysis
+Orders are categorized into Completed, Pending, and Cancelled statuses to evaluate operational performance.
 
-![Q23](outputs/Q23_result.png)
+### Business Insight
 
-### Q24. Highest Revenue Product Pairs 
+A higher completion rate indicates efficient order fulfillment, while elevated cancellation rates may signal operational or customer experience issues.
 
-![Q24](outputs/Q24_result.png)
+### Recommendation
 
+Investigate cancellation causes and improve order processing efficiency to increase successful order completion rates.
 
-### Q25. Daily Business Performance Report
+---
 
-![Q25](outputs/Q25_result.png)
+## Q7. Product Category Revenue Analysis
+
+![Q7 Output](outputs/Q7_result.png)
+
+![Product Category Distribution](outputs/product_category_chart.png)
+
+### Result Interpretation
+
+Revenue contribution varies significantly across product categories.
+
+### Business Insight
+
+A limited number of categories contribute a substantial portion of total revenue, making them critical drivers of business performance.
+
+### Recommendation
+
+Prioritize inventory management, product promotion, and category-specific marketing efforts for top-performing categories.
+
+---
+
+## Q10. Stock-Out Risk Products
+
+![Q10 Output](outputs/Q10_result.png)
+
+### Result Interpretation
+
+Several products exhibit high sales volume while maintaining relatively low inventory levels.
+
+### Business Insight
+
+These products face a potential stock-out risk, which may result in missed sales opportunities and customer dissatisfaction.
+
+### Recommendation
+
+Implement proactive inventory replenishment strategies and closely monitor demand for high-performing products.
+
+---
+
+## Q17. Payment Method Analysis
+
+![Q17 Output](outputs/Q17_result.png)
+
+![Payment Method Distribution](outputs/payment_method_chart.png)
+
+### Result Interpretation
+
+The analysis identifies the most frequently used payment methods among customers.
+
+### Business Insight
+
+Cash on Delivery (COD) remains the dominant payment method, while digital payment methods continue to gain adoption.
+
+### Recommendation
+
+Encourage digital payment adoption through cashback offers, discounts, and promotional incentives.
+
+---
+
+## Q23. Product Affinity Analysis
+
+![Q23 Output](outputs/Q23_result.png)
+
+![Top Product Pairs](outputs/top_product_pairs.png)
+
+### Result Interpretation
+
+Certain product combinations are frequently purchased together within the same order.
+
+### Business Insight
+
+These purchasing patterns reveal natural product associations and cross-selling opportunities.
+
+### Recommendation
+
+Create bundle offers, recommendation systems, and targeted promotions based on frequently purchased product pairs.
+
+---
+
+## Q25. Daily Business Performance Report
+
+![Q25 Output](outputs/Q25_result.png)
+
+### Result Interpretation
+
+The daily report summarizes total orders, completed orders, cancelled orders, total items sold, and daily revenue.
+
+### Business Insight
+
+Daily KPI monitoring provides management with a real-time view of operational and financial performance.
+
+### Recommendation
+
+Develop automated dashboards to continuously track key business metrics and support data-driven decision-making.
+
 
 ---
 
@@ -571,19 +647,6 @@ The SQL scripts cover:
 * Customer payment preferences vary across locations.
 * Certain payment methods dominate transaction volume.
 * Payment behavior influences order completion and cancellation trends.
-
----
-
-## Business Recommendations
-
-| Business Area         | Recommendation                                                        |
-| --------------------- | --------------------------------------------------------------------- |
-| Revenue Growth        | Focus marketing investment on high-performing cities and products     |
-| Customer Retention    | Launch loyalty programs and targeted re-engagement campaigns          |
-| Inventory Management  | Monitor high-demand products and improve replenishment planning       |
-| Product Bundling      | Create bundle offers based on product affinity analysis               |
-| Payment Optimization  | Promote preferred payment methods and investigate cancellation trends |
-| Business Intelligence | Develop KPI dashboards for continuous performance monitoring          |
 
 ---
 
