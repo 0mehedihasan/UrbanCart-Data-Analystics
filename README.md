@@ -40,7 +40,7 @@ This project aims to answer 25 business-oriented analytical questions covering:
 | Payment Methods | 5 |
 | Order Date Range | September 2025 – December 2025 |
 
---
+---
 
 ## Data Source
 
@@ -156,7 +156,7 @@ UrbanCart Retail E-Commerce Dataset
 
 ## Database Schema (ER Diagram)
 
-![ER Diagram](ER_Diagram.png.webp)
+![ER Diagram](ER_Diagram.webp)
 
 ---
 
