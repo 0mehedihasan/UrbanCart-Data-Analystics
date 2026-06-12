@@ -665,6 +665,23 @@ Develop automated dashboards to continuously track key business metrics and supp
 
 ---
 
+ ## Business Recommendations
+
+| Business Area | Recommendation | Expected Impact |
+|--------------|---------------|----------------|
+| Sales Growth | Increase marketing investment in top-performing cities to maximize revenue generation. | Higher revenue and customer acquisition |
+| Customer Retention | Launch loyalty programs and personalized promotional campaigns for repeat customers. | Improved customer retention and lifetime value |
+| Product Strategy | Focus promotional efforts on top-performing products and categories. | Increased product sales and revenue contribution |
+| Product Bundling | Create bundle offers based on frequently purchased product pairs identified through affinity analysis. | Higher average basket size and cross-selling opportunities |
+| Inventory Management | Continuously monitor high-demand products with low stock levels and implement proactive replenishment. | Reduced stock-out risk and improved product availability |
+| Payment Optimization | Promote digital payment methods through cashback offers and discounts. | Increased digital payment adoption and operational efficiency |
+| Cancellation Reduction | Investigate cancellation patterns and improve order fulfillment processes. | Higher order completion rates and customer satisfaction |
+| Business Intelligence | Develop KPI dashboards for monitoring daily sales, revenue, orders, and customer activity. | Faster and more effective data-driven decision-making |
+
+
+---
+
+
 ## Technologies Used
 
 * PostgreSQL
