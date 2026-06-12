@@ -606,9 +606,70 @@ UrbanCart-Data-Analytics
 │
 ├── README.md
 ├── ER_Diagram.webp
+│
 ├── database/
+│   ├── DimCustomers.csv
+│   ├── DimProducts.csv
+│   ├── FactOrders.csv
+│   ├── FactOrderItems.csv
+│   └── FactPayment.csv
+│
 ├── sql_queries/
+│   ├── Q01_Total_Orders.sql
+│   ├── Q02_Cities_Orders_Revenue.sql
+│   ├── Q03_Gmail_Customer_Percentage.sql
+│   ├── Q04_Monthly_Order_Trend.sql
+│   ├── Q05_Order_Status_Rate.sql
+│   ├── Q06_Total_Revenue.sql
+│   ├── Q07_Category_Revenue.sql
+│   ├── Q08_Top_Revenue_Products.sql
+│   ├── Q09_AOV_and_Basket_Size.sql
+│   ├── Q10_Stockout_Risk_Products.sql
+│   ├── Q11_Top_Customers_By_Revenue.sql
+│   ├── Q12_Cancellation_Rate.sql
+│   ├── Q13_Gender_Purchasing_Pattern.sql
+│   ├── Q14_Customer_Behavior_Over_Time.sql
+│   ├── Q15_October_Not_December.sql
+│   ├── Q16_October_And_December.sql
+│   ├── Q17_Payment_Method_Usage.sql
+│   ├── Q18_Payment_Method_vs_Status.sql
+│   ├── Q19_City_Payment_Preference.sql
+│   ├── Q20_High_Value_Orders.sql
+│   ├── Q21_Items_Per_Order_By_Payment.sql
+│   ├── Q22_Product_vs_Category_Price.sql
+│   ├── Q23_Frequent_Product_Pairs.sql
+│   ├── Q24_Highest_Revenue_Product_Pairs.sql
+│   └── Q25_Daily_Business_Report.sql
+│
 └── outputs/
+    ├── payment_method_chart.png
+    ├── product_category_chart.png
+    │
+    ├── Q1_result.png
+    ├── Q2_result.png
+    ├── Q3_result.png
+    ├── Q4_result.png
+    ├── Q5_result.png
+    ├── Q6_result.png
+    ├── Q7_result.png
+    ├── Q8_result.png
+    ├── Q9_result.png
+    ├── Q10_result.png
+    ├── Q11_result.png
+    ├── Q12_result.png
+    ├── Q13_result.png
+    ├── Q14_result.png
+    ├── Q15_result.png
+    ├── Q16_result.png
+    ├── Q17_result.png
+    ├── Q18_result.png
+    ├── Q19_result.png
+    ├── Q20_result.png
+    ├── Q21_result.png
+    ├── Q22_result.png
+    ├── Q23_result.png
+    ├── Q24_result.png
+    └── Q25_result.png
 
 ```
 
