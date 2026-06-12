@@ -12,6 +12,67 @@ The goal is to support data-driven decision-making through structured SQL analys
 
 ---
 
+## Project Highlights
+
+This project demonstrates end-to-end SQL-based business analytics using the UrbanCart E-Commerce dataset.
+
+### Project Deliverables
+
+* Designed and analyzed a relational retail database
+* Developed 25 SQL queries to solve real-world business problems
+* Performed sales, customer, product, inventory, payment, and retention analysis
+* Created an Entity Relationship (ER) Diagram
+* Generated business reports and KPI summaries
+* Identified customer behavior and purchasing patterns
+* Conducted product affinity and cross-selling analysis
+* Evaluated inventory stock-out risks
+* Created payment method and product category visualizations
+* Generated business insights and actionable recommendations
+* Documented the complete analysis workflow in GitHub
+
+### Skills Demonstrated
+
+* SQL Query Writing
+* Data Cleaning & Validation
+* Data Aggregation
+* JOIN Operations
+* Subqueries
+* Common Table Expressions (CTEs)
+* Business Intelligence Reporting
+* Data Visualization
+* Data Storytelling
+* Business Insight Generation
+---
+
+ ### Table of Contents
+
+* Project Overview
+* Project Highlights
+* Project Objectives
+* Project Snapshot
+* Data Source
+* Data Files
+* Data Model Summary
+* Order Status Distribution
+* Payment Methods Available
+* Product Categories
+* Data Quality Notes
+* Data Validation Summary
+* Business Analytics Areas
+* Database Schema (ER Diagram)
+* Visual Analytics
+* Business Questions Addressed
+* SQL Scripts
+* SQL Concepts Demonstrated
+* Sample Output Screenshots
+* Key Findings and Insights
+* Business Recommendations
+* Technologies Used
+* Repository Structure
+* Author
+  
+---
+  
 ## Project Objectives
 
 This project aims to answer 25 business-oriented analytical questions covering:
@@ -182,6 +243,7 @@ UrbanCart Retail E-Commerce Dataset
 2. Top Cities by Orders and Revenue
 3. Gmail Customer Percentage
 4. Monthly Order Trend
+5. Completed, Pending and Cancelled Order Rates
 6. Total Revenue Generated
 7. Revenue by Product Category
 8. Top Revenue Generating Products
@@ -251,13 +313,17 @@ The SQL scripts cover:
 
 ![Q2](outputs/Q2_result.png)
 
-### Gmail Customer Percentage 
+### Q3. Gmail Customer Percentage 
 
 ![Q3](outputs/Q3_result.png) 
 
-### Monthly order Trend
+### Q4. Monthly order Trend
 
 ![Q4](outputs/Q4_result.png) 
+
+### Q5. Completed, Pending and Cancelled Order Rates
+
+![Q5](outputs/Q5_result.png)
 
 ### Q7. Product Category Revenue Analysis
 
@@ -360,7 +426,7 @@ The SQL scripts cover:
 UrbanCart-Data-Analytics
 │
 ├── README.md
-├── ER_Diagram.png
+├── ER_Diagram.webp
 ├── database/
 ├── sql_queries/
 └── outputs/
