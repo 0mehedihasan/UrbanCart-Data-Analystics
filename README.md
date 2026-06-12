@@ -463,7 +463,9 @@ The SQL scripts cover:
 | Aggregate Functions | COUNT, SUM, AVG |
 | INNER JOIN | Multi-table Analysis |
 | LEFT JOIN | Data Completeness Checks |
-| CASE Statements | Conditional Analysis |
+| CASE WHEN | Conditional Business Logic |
+| Date Functions | Trend Analysis |
+| Multi-Table JOINs | Retail Data Modeling |
 | Subqueries | Advanced Filtering |
 | Common Table Expressions (CTE) | Product Affinity Analysis |
 
@@ -583,6 +585,7 @@ The SQL scripts cover:
 * DrawSQL
 * Microsoft Excel
 * GitHub
+* Markdown
 
 ---
 
@@ -603,8 +606,6 @@ UrbanCart-Data-Analytics
 
 **Rubina Akter**
 
-Department of Geography and Environment
+Aspiring Data Analyst with a focus on SQL, Data Analytics, and Business Intelligence.
 
-SQL-Based Retail Business Analytics Project using PostgreSQL.
-
-
+This project demonstrates the application of PostgreSQL for solving real-world retail business problems through data-driven analysis.
